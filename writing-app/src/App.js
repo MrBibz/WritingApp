@@ -1,9 +1,15 @@
-import './App.css';
-import NavBar from './NavBar/NavBar.js';
+import "./App.css";
+import Sidebar from "./Sidebar/Sidebar.js";
+
+const rootFont = {
+  fontFamily: "monospace",
+};
 
 function App() {
   return (
-    <NavBar />
+    <div style={rootFont}>
+      <Sidebar />
+    </div>
   );
 }
 
